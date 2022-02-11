@@ -1,23 +1,23 @@
 {
   "name": "editor-widget",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
   "dependencies": {
-    "base-widget": "git+https://github.com/cancerberoSgx/base-widget.git",
-    "blessed": "0.1.81",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git",
+    "neo-blessed": "0.2.0",
     "bluebird": "3.5.4",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
     "copy-paste": "^1.3.0",
     "es6-set": "0.1.5",
     "highlight.js": "9.15.6",
-    "iconv-lite": "0.4.24",
-    "lodash": "4.17.11",
+    "iconv-lite": "0.6.3",
+    "lodash": "4.17.21",
     "lodash.padstart": "^4.6.1",
-    "minimist": "1.2.0",
+    "minimist": "1.2.5",
     "rc": "1.2.8",
-    "semver": "6.0.0",
-    "slap-util": "git+https://github.com/cancerberoSgx/slap-util.git",
+    "semver": "7.3.5",
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git",
     "text-buffer": "13.15.3"
   },
   "devDependencies": {
@@ -28,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/slap-editor/editor-widget.git"
+    "url": "git+https://github.com/ajstrand/editor-widget.git"
   },
   "author": "Dan Kaplun <dbkaplun@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/slap-editor/editor-widget/issues"
+    "url": "https://github.com/ajstrand/editor-widget/issues"
   },
-  "homepage": "https://github.com/slap-editor/editor-widget#readme"
+  "homepage": "https://github.com/ajstrand/editor-widget#readme"
 }
