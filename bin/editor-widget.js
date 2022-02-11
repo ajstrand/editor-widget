@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var blessed = require('blessed');
+var blessed = require('neo-blessed');
 var Editor = require('../.');
 
 var screen = new blessed.Screen();

@@ -4,7 +4,7 @@ Editor widget for blessed used by the [slap](https://github.com/slap-editor/slap
 ## Example
 
 ```js
-const blessed = require('blessed');
+const blessed = require('neo-blessed');
 const Editor = require('editor-widget');
 
 const screen = blessed.screen({smartCSR: true, title: "editor-widget example"});
