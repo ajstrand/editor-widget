@@ -4,24 +4,24 @@
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git#master",
     "neo-blessed": "0.2.0",
-    "bluebird": "3.5.4",
+    "bluebird": "3.7.2",
     "cheerio": "^1.0.0-rc.10",
     "copy-paste": "^1.3.0",
     "es6-set": "0.1.5",
-    "highlight.js": "10.7.2",
+    "highlight.js": "10.3.2",
     "iconv-lite": "0.6.3",
     "lodash": "4.17.21",
     "lodash.padstart": "^4.6.1",
     "minimist": "1.2.5",
     "rc": "1.2.8",
     "semver": "7.3.5",
-    "slap-util": "git+https://github.com/ajstrand/slap-util.git",
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git#master",
     "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#master"
   },
   "devDependencies": {
-    "tape": "4.10.1"
+    "tape": "5.5.2"
   },
   "scripts": {
     "test": "spec/index.js"
