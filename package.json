@@ -30,7 +30,7 @@
     "type": "git",
     "url": "git+https://github.com/ajstrand/editor-widget.git"
   },
-  "author": "Dan Kaplun <dbkaplun@gmail.com>",
+  "author": "Alex Strand @ajstrand on github",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ajstrand/editor-widget/issues"
