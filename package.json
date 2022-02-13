@@ -4,7 +4,7 @@
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
   "dependencies": {
-    "base-widget": "git+https://github.com/ajstrand/base-widget.git#master",
+    "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
     "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
     "cheerio": "^1.0.0-rc.10",
@@ -17,8 +17,8 @@
     "minimist": "1.2.5",
     "rc": "1.2.8",
     "semver": "7.3.5",
-    "slap-util": "git+https://github.com/ajstrand/slap-util.git#master",
-    "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#master"
+    "slap-util": "git+https://github.com/ajstrand/slap-util.git#main",
+    "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#main"
   },
   "devDependencies": {
     "tape": "5.5.2"
