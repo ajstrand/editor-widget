@@ -18,7 +18,7 @@
     "rc": "1.2.8",
     "semver": "7.3.5",
     "slap-util": "git+https://github.com/ajstrand/slap-util.git",
-    "text-buffer": "13.18.6"
+    "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#master"
   },
   "devDependencies": {
     "tape": "4.10.1"
