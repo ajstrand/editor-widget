@@ -1,3 +1,4 @@
+## This is a fork
 # editor-widget [![Build Status](https://travis-ci.org/slap-editor/editor-widget.svg?branch=master)](https://travis-ci.org/slap-editor/editor-widget)
 Editor widget for blessed used by the [slap](https://github.com/slap-editor/slap) text editor
 
