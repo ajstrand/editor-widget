@@ -50,6 +50,12 @@ function defaultTask(cb) {
     //     presets: ['@babel/env']
     // }))
     .pipe(gulp.dest('dist/'))
+
+    gulp.src('editor-widget.ini')
+    // .pipe(babel({
+    //     presets: ['@babel/env']
+    // }))
+    .pipe(gulp.dest('dist/'))
   }
   
   const _default = defaultTask;

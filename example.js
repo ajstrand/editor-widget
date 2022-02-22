@@ -10,13 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 //const x = fileURLToPath("./hello.md")
 
 import Editor from "./lib/Editor.js";
-//console.log(Editor)
 var screen = new Screen();
 screen.key('C-q', function () { process.exit(); });
 var editor = new Editor({parent: screen});
-//editor.open(__filename).done();
-console.log(editor.saysHi())
-
-await editor.open(__filename).done()
-
-//screen.render()
+editor.open(__filename).done();
