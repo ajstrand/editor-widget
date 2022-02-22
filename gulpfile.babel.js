@@ -31,12 +31,25 @@ function defaultTask(cb) {
     .pipe(uglify())
     .pipe(gulp.dest('dist'))
 
-    gulp.src('lib/*.js')
+    gulp.src('lib/highlight/*.js')
     // .pipe(babel({
     //     presets: ['@babel/env']
     // }))
     .pipe(uglify())
+    .pipe(gulp.dest('dist/lib/highlight'))
+
+    gulp.src('lib/*.js')
+    // .pipe(babel({
+    //     presets: ['@babel/env']
+    // }))
+    //.pipe(uglify())
     .pipe(gulp.dest('dist/lib'))
+
+    gulp.src('package.json')
+    // .pipe(babel({
+    //     presets: ['@babel/env']
+    // }))
+    .pipe(gulp.dest('dist/'))
   }
   
   const _default = defaultTask;

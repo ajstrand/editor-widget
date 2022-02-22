@@ -1,5 +1,3 @@
-import { createRequire } from 'module';
-const require = createRequire(import.meta.url);
-const Editor = require("./lib/Editor")
-console.log(Editor)
+import Editor from "./lib/Editor.js"
+console.log("yes!!!")
 export default Editor
