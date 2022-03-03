@@ -37,7 +37,6 @@
   },
   "scripts": {
     "trash": "trash build",
-    "webpack": "trash build && webpack",
     "gulp": "trash dist && gulp",
     "clean-run": "npm run gulp && node dist/example.js",
     "example":"node dist/example.js",
