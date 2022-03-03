@@ -1,1 +1,3 @@
-module.exports = require('./lib/Editor');
+import Editor from "./lib/Editor.js"
+console.log("yes!!!")
+export default Editor

@@ -3,27 +3,44 @@
   "version": "1.1.2",
   "description": "Editor widget used by slap-editor/slap",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "base-widget": "git+https://github.com/ajstrand/base-widget.git#main",
-    "neo-blessed": "0.2.0",
     "bluebird": "3.7.2",
     "cheerio": "^1.0.0-rc.10",
     "copy-paste": "^1.3.0",
-    "es6-set": "0.1.5",
+    "esm": "^3.2.25",
+    "fs-extra": "^10.0.1",
     "highlight.js": "9.15.10",
     "iconv-lite": "0.6.3",
     "lodash": "4.17.21",
     "lodash.padstart": "^4.6.1",
     "minimist": "1.2.5",
+    "neo-blessed": "0.2.0",
     "rc": "1.2.8",
     "semver": "7.3.5",
     "slap-util": "git+https://github.com/ajstrand/slap-util.git#main",
     "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#main"
   },
   "devDependencies": {
-    "tape": "5.5.2"
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/register": "7.17.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1"
   },
   "scripts": {
+    "trash": "trash build",
+    "gulp": "trash dist && gulp",
+    "clean-run": "npm run gulp && node dist/example.js",
+    "example":"node dist/example.js",
+    "internal":"node example.js",
     "test": "spec/index.js"
   },
   "repository": {
