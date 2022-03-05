@@ -10,4 +10,5 @@ const __filename = fileURLToPath(import.meta.url);
 var screen = new Screen();
 screen.key('C-q', function () { process.exit(); });
 var editor = new Editor({parent: screen});
-editor.open(__filename).done();
+//editor.open(__filename).done();
+editor.open("./example.js").done()

@@ -15,7 +15,6 @@
     "iconv-lite": "0.6.3",
     "lodash": "4.17.21",
     "lodash.padstart": "^4.6.1",
-    "minimist": "1.2.5",
     "neo-blessed": "0.2.0",
     "rc": "1.2.8",
     "semver": "7.3.5",
@@ -23,9 +22,18 @@
     "text-buffer": "git+https://git@github.com/ajstrand/text-buffer.git#main"
   },
   "devDependencies": {
+    "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
     "@babel/register": "7.17.0",
+    "@mizdra/eslint-interactive": "^8.1.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier":"^8.5.0",
+    "eslint-config-problems": "^6.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-cli": "^2.3.0",
@@ -33,15 +41,20 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify-es": "^3.0.0",
     "jest": "^27.5.1",
-    "jest-cli": "^27.5.1"
+    "jest-cli": "^27.5.1",
+    "prettier": "^2.5.1",
+    "prettier-eslint-cli": "^5.0.1"
   },
   "scripts": {
     "trash": "trash build",
     "gulp": "trash dist && gulp",
     "clean-run": "npm run gulp && node dist/example.js",
-    "example":"node dist/example.js",
-    "internal":"node example.js",
-    "test": "spec/index.js"
+    "example": "node dist/example.js",
+    "internal": "node example.js",
+    "test": "spec/index.js",
+    "lint": "eslint .",
+    "format": "prettier-eslint \"lib/**/*.js\"",
+    "dashboard": "npx eslint-interactive lib/"
   },
   "repository": {
     "type": "git",
